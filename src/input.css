@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hamburger-line {
+  @apply w-6 h-1 bg-white mb-1
+}
+
+.nav{
+  @apply text-black opacity-50 hover:opacity-100 hover:font-semibold transition duration-300;
+}
+
+.aaa{
+  @apply container px-6 mt-[80px] md:px-8 lg:px-14;
+}
+
+.carousel-container {
+  max-width: 100%;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel {
+  scroll-behavior: smooth;
+}
+
+.carousel-item {
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}

@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body class="font-inter">
+    <!-- header start -->
+    <header
+      class="container px-6 py-7 flex bg-transparent items-center justify-between md:px-8 lg:px-14 fixed top-0 bg-white max-w-full"
+    >
+      <div class="logo flex items-center">
+        <img src="./img/logo/Logo.svg" alt="" />
+        <span class="ml-3 font-extrabold font-inter text-xl">Travlog</span>
+      </div>
+
+      <nav class="hidden lg:flex">
+        <ul class="flex justify-between gap-14">
+          <li class="group-hover:opacity-100">
+            <a href="#" class="nav">Home</a>
+          </li>
+          <li>
+            <a href="#" class="nav">Discover</a>
+          </li>
+          <li>
+            <a href="#" class="nav">Special Deals</a>
+          </li>
+          <li>
+            <a href="#" class="nav">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div
+        class="w-11 h-11 bg-purple rounded-xl flex items-center justify-center flex-col min-w-3 lg:hidden"
+      >
+        <span class="hamburger-line block w-6 h-0.5 bg-black mb-1"></span>
+        <span class="hamburger-line block w-6 h-0.5 bg-black mb-1"></span>
+        <span class="hamburger-line block w-6 h-0.5 bg-black"></span>
+      </div>
+
+      <div class="hidden md:flex">
+        <div class="a px-7 py-4 rounded-full">
+          <p class="text-center text-black font-semibold min-w-7">Log In</p>
+        </div>
+        <div class="a bg-purple px-7 py-4 rounded-full">
+          <p class="text-center text-white font-semibold min-w-7">Sign Up</p>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- home screen startt -->
+    <div
+      class="container px-6 mt-[120px] md:px-8 lg:px-14 lg:flex lg:flex-row-reverse lg:items-center"
+    >
+      <div class="image lg:w-1/2 lg:flex lg:justify-center">
+        <img
+          src="./img/home screen/Group 1.png"
+          alt=""
+          class="w-full md:max-w-lg lg:max-w-xl mx-auto block"
+        />
+      </div>
+
+      <div class="lg:w-1/2 lg:pr-10 lg:flex lg:flex-col lg:justify-center">
+        <div
+          class="flex shadow-md items-center justify-center px-4 py-3 gap-2 border rounded-2xl w-3/4 mx-auto lg:m-0 lg:w-1/2 -mt-3 min-w-[200px] md:max-w-xs lg:max-w-md"
+        >
+          <span class="text-pink font-bold text-sm">Explore the world!</span>
+          <img src="./img/home screen/explore.svg" alt="" />
+        </div>
+        <h1
+          class="text-2xl font-bold text-black text-center lg:text-left mx-auto mt-6 w-full md:text-4xl lg:text-5xl lg:w-full"
+        >
+          Travel <span class="text-pink">top destination</span> of the world
+        </h1>
+        <p
+          class="text-slate-400 text-center lg:text-left mt-6 w-full mx-auto lg:w-full"
+        >
+          We always make our customer happy by providing as many choices as
+          possible
+        </p>
+
+        <div
+          class="flex flex-col md:flex-row md:justify-center lg:justify-start mt-6 gap-4 lg:gap-6"
+        >
+          <div
+            class="bg-purple font-bold py-4 text-sm rounded-full w-full text-center text-white max-w-xs mx-auto lg:mx-0"
+          >
+            Get Started
+          </div>
+          <div
+            class="flex shadow-md items-center justify-center py-4 gap-2 border rounded-full w-full text-center max-w-xs mx-auto lg:mx-0"
+          >
+            <img src="./img/home screen/playcircle.svg" alt="" />
+            <span class="text-black font-bold text-sm">Watch Demo</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- home screen end -->
+
+    <!-- sponsors -->
+    <div
+      class="aaa flex items-center gap-[30px] flex-wrap justify-center mx-auto md:gap-[50px] lg:gap-[100px]"
+    >
+      <img src="./img/sponsors/trip-advisor.svg" alt="" />
+      <img src="./img/sponsors/expedia.svg" alt="" />
+      <img src="./img/sponsors/bookingcoom.svg" alt="" />
+      <img src="./img/sponsors/airbnb.svg" alt="" />
+      <img src="./img/sponsors/orbit.svg" alt="" />
+    </div>
+
+    <!-- Service start -->
+    <div class="aaa">
+      <h3 class="uppercase text-center text-pink tracking-widest font-bold">
+        Service
+      </h3>
+      <h1 class="text-center text-2xl font-bold">
+        Our top value categories for you
+      </h1>
+      <div class="flex flex-col gap-4">
+        <div
+          class="flex rounded-lg shadow-lg flex-col items-center justify-center px-4 py-6 gap-4 min-w-[300px] max-w-sm mx-auto bg-white"
+        >
+          <img
+            src="./img/service/basictourgide.png"
+            alt="Basic Tour Guide"
+            class="w-lg object-cover mb-4"
+          />
+          <h3 class="text-center font-bold text-xl md:text-2xl">
+            Easy Booking
+          </h3>
+          <p
+            class="text-center w-full max-w-xs text-md md:text-lg text-gray-600"
+          >
+            What looked like a small patch of purple grass, above five feet.
+          </p>
+        </div>
+        <div
+          class="flex rounded-lg shadow-lg flex-col items-center justify-center px-4 py-6 gap-4 min-w-[300px] max-w-sm mx-auto bg-white"
+        >
+          <img
+            src="./img/service/basictourgide.png"
+            alt="Basic Tour Guide"
+            class="w-lg object-cover mb-4"
+          />
+          <h3 class="text-center font-bold text-xl md:text-2xl">
+            Easy Booking
+          </h3>
+          <p
+            class="text-center w-full max-w-xs text-md md:text-lg text-gray-600"
+          >
+            What looked like a small patch of purple grass, above five feet.
+          </p>
+        </div>
+        <div
+          class="flex rounded-lg shadow-lg flex-col items-center justify-center px-4 py-6 gap-4 min-w-[300px] max-w-sm mx-auto bg-white"
+        >
+          <img
+            src="./img/service/basictourgide.png"
+            alt="Basic Tour Guide"
+            class="w-lg object-cover mb-4"
+          />
+          <h3 class="text-center font-bold text-xl md:text-2xl">
+            Easy Booking
+          </h3>
+          <p
+            class="text-center w-full max-w-xs text-md md:text-lg text-gray-600"
+          >
+            What looked like a small patch of purple grass, above five feet.
+          </p>
+        </div>
+        <div
+          class="flex rounded-lg shadow-lg flex-col items-center justify-center px-4 py-6 gap-4 min-w-[300px] max-w-sm mx-auto bg-white"
+        >
+          <img
+            src="./img/service/basictourgide.png"
+            alt="Basic Tour Guide"
+            class="w-lg object-cover mb-4"
+          />
+          <h3 class="text-center font-bold text-xl md:text-2xl">
+            Easy Booking
+          </h3>
+          <p
+            class="text-center w-full max-w-xs text-md md:text-lg text-gray-600"
+          >
+            What looked like a small patch of purple grass, above five feet.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Service end -->
+
+    <!-- top destination -->
+    <div class="aaa">
+      <h3 class="uppercase text-center text-pink tracking-widest font-bold">
+        top destination
+      </h3>
+      <h1 class="text-center text-2xl font-bold">Explore top destination</h1>
+
+      <div class="flex justify-between">
+        <div
+          class="w-[70px] h-[70px] bg-white rounded-full flex items-center justify-center border-[3px] border-slate-500"
+        >
+          <img src="./img/destination/leftarrow.svg" alt="" />
+        </div>
+        <div
+          class="w-[70px] h-[70px] bg-purple rounded-full flex items-center justify-center"
+        >
+          <img src="./img/destination/rightarrow.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- top destination end -->
+
+    <!-- travel point start -->
+    <div class="aaa">
+      <h3 class="uppercase text-center text-pink tracking-widest font-bold">
+        travel point
+      </h3>
+      <h1 class="text-center text-2xl font-bold mt-[15px]">
+        We helping you find your dream location
+      </h1>
+      <p class="text-center text-slate-500 mt-[15px]">
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It
+        has roots in a piece of classical Latin literature from 45 BC.
+      </p>
+      <div class="flex flex-col gap-5 mt-5">
+        <div
+          class="flex flex-col border-[3px] mx-auto w-full p-6 gap-3 rounded-2xl"
+        >
+          <p class="text-center mx-auto font-bold text-orange text-2xl">
+            500++
+          </p>
+          <p class="text-center mx-auto text-lg">Holiday Package</p>
+        </div>
+        <div
+          class="flex flex-col border-[3px] mx-auto w-full p-6 gap-3 rounded-2xl"
+        >
+          <p class="text-center mx-auto font-bold text-orange text-2xl">
+            500++
+          </p>
+          <p class="text-center mx-auto text-lg">Holiday Package</p>
+        </div>
+        <div
+          class="flex flex-col border-[3px] mx-auto w-full p-6 gap-3 rounded-2xl"
+        >
+          <p class="text-center mx-auto font-bold text-orange text-2xl">
+            500++
+          </p>
+          <p class="text-center mx-auto text-lg">Holiday Package</p>
+        </div>
+        <div
+          class="flex flex-col border-[3px] mx-auto w-full p-6 gap-3 rounded-2xl"
+        >
+          <p class="text-center mx-auto font-bold text-orange text-2xl">
+            500++
+          </p>
+          <p class="text-center mx-auto text-lg">Holiday Package</p>
+        </div>
+      </div>
+    </div>
+    <!-- travel point end -->
+
+    <!-- keyy features start -->
+    <div class="aaa">
+      <h3 class="uppercase text-center text-pink tracking-widest font-bold">
+        travel point
+      </h3>
+      <h1 class="text-center text-2xl font-bold mt-[15px]">
+        We helping you find your dream location
+      </h1>
+      <p class="text-center text-slate-500 mt-[15px]">
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It
+        has roots in a piece of classical Latin literature from 45 BC.
+      </p>
+      <div class="flex flex-col gap-5 mt-5">
+        <div
+          class="flex flex-col border-[3px] mx-auto w-5/6 p-6 gap-3 rounded-2xl min-w-[300px]"
+        >
+          <div
+            class="w-[80px] h-[80px] bg-orange flex items-center justify-center rounded-3xl"
+          >
+            <img src="./img/key feature/location.svg" alt="" />
+          </div>
+          <p class="font-bold text-black text-2xl">We offer best services</p>
+          <p class="text-lg">Holiday Package</p>
+        </div>
+        <div
+          class="flex flex-col border-[3px] mx-auto w-5/6 p-6 gap-3 rounded-2xl min-w-[300px]"
+        >
+          <div
+            class="w-[80px] h-[80px] bg-orange flex items-center justify-center rounded-3xl"
+          >
+            <img src="./img/key feature/location.svg" alt="" />
+          </div>
+          <p class="font-bold text-black text-2xl">We offer best services</p>
+          <p class="text-lg">Holiday Package</p>
+        </div>
+        <div
+          class="flex flex-col border-[3px] mx-auto w-5/6 p-6 gap-3 rounded-2xl min-w-[300px]"
+        >
+          <div
+            class="w-[80px] h-[80px] bg-orange flex items-center justify-center rounded-3xl"
+          >
+            <img src="./img/key feature/location.svg" alt="" />
+          </div>
+          <p class="font-bold text-black text-2xl">We offer best services</p>
+          <p class="text-lg">Holiday Package</p>
+        </div>
+      </div>
+    </div>
+    <!-- keyy features end -->
+
+    <!-- testimonials start -->
+    <div class="aaa">
+      <h3 class="uppercase text-center text-pink tracking-widest font-bold">
+        testimonials
+      </h3>
+      <h1 class="text-center text-2xl font-bold mt-[15px]">
+        Trust our clients
+      </h1>
+      <div class="carousel-container overflow-hidden">
+        <div class="carousel flex gap-4">
+          <div
+            class="carousel-item flex flex-col items-center justify-center border-[2px] border-slate-950 gap-5 mt-3 rounded-3xl p-4 min-w-[300px] max-w-[350px]"
+          >
+            <img
+              src="./img/testimonials/profile.png"
+              alt=""
+              class="w-32 object-cover mb-4"
+            />
+            <p>Mark Smith / Travel Enthusiast</p>
+            <div class="flex gap-3">
+              <img src="./img/testimonials/star.svg" alt="" />
+              <img src="./img/testimonials/star.svg" alt="" />
+              <img src="./img/testimonials/star.svg" alt="" />
+              <img src="./img/testimonials/star.svg" alt="" />
+              <img src="./img/testimonials/star.svg" alt="" />
+            </div>
+            <p class="text-center">
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC.
+            </p>
+          </div>
+          <div
+            class="carousel-item flex flex-col items-center justify-center border-[2px] border-slate-950 gap-5 mt-3 rounded-3xl p-4 min-w-[300px] max-w-[350px]"
+          >
+            <img
+              src="./img/testimonials/profile.png"
+              alt=""
+              class="w-32 object-cover mb-4"
+            />
+            <p>Mark Smith / Travel Enthusiast</p>
+            <div class="flex gap-3">
+              <img src="./img/testimonials/star.svg" alt="" />
+              <img src="./img/testimonials/star.svg" alt="" />
+              <img src="./img/testimonials/star.svg" alt="" />
+              <img src="./img/testimonials/star.svg" alt="" />
+              <img src="./img/testimonials/star.svg" alt="" />
+            </div>
+            <p class="text-center">
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- testimonials end -->
+
+    <!-- Subscribe start -->
+    <div
+      class="aaa bg-kuning p-10 rounded-2xl max-w-[85%] lg:max-w-[70%] mx-auto my-10"
+    >
+      <h3 class="uppercase text-center text-pink tracking-widest font-bold">
+        subscribe to our newsletter
+      </h3>
+      <h1 class="text-center text-2xl font-bold mt-[15px]">
+        Prepare yourself & let's explore the beauty of the world
+      </h1>
+      <div class="flex flex-col mt-20 gap-[30px]">
+        <div
+          class="flex p-5 bg-white rounded-2xl items-center gap-5 font-semibold"
+        >
+          <img src="./img/subscribe/mail.svg" alt="" />
+          <p>Your Email</p>
+        </div>
+        <div class="flex p-5 bg-purple text-white font-semibold rounded-2xl">
+          <p class="mx-auto">Subscribe</p>
+        </div>
+      </div>
+    </div>
+    <!-- Subscribe end -->
+
+    <!-- footer start -->
+    <footer class="aaa">
+      <div class="logo flex items-center">
+        <img src="./img/logo/Logo.svg" alt="" />
+        <span class="ml-3 font-extrabold font-inter text-xl">Travlog</span>
+      </div>
+      <p class="mt-6">
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It
+        has roots in a piece of classical Latin literature from 45 BC.
+      </p>
+      <div class="flex mt-6 gap-4">
+        <a
+          href="https://facebook.com/aryaa"
+          target="_blank"
+          class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary text-white bg-purple"
+        >
+          <svg
+            class="fill-current"
+            width="20"
+            role="img"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>Facebook</title>
+            <path
+              d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"
+            />
+          </svg>
+        </a>
+        <a
+          href="https://x.com/aryaa"
+          target="_blank"
+          class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary text-white bg-purple"
+        >
+          <svg
+            class="fill-current"
+            width="20"
+            role="img"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>X</title>
+            <path
+              d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"
+            />
+          </svg>
+        </a>
+        <a
+          href="https://youtube.com/aryaa"
+          target="_blank"
+          class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary text-white bg-purple"
+        >
+          <svg
+            class="fill-current"
+            width="20"
+            role="img"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>Instagram</title>
+            <path
+              d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"
+            />
+          </svg>
+        </a>
+      </div>
+      <div class="flex mt-7 items-center justify-between">
+        <p class="font-bold text-xl">Company</p>
+        <div
+          class="w-[35px] h-[35px] border-[3px] border-black rounded-full flex items-center justify-center"
+        >
+          <img src="./img/footer/down.svg" alt="" class="w-4 h-4" />
+        </div>
+      </div>
+      <div class="flex mt-7 items-center justify-between">
+        <p class="font-bold text-xl">Contact Us</p>
+        <div
+          class="w-[35px] h-[35px] border-[3px] border-black rounded-full flex items-center justify-center"
+        >
+          <img src="./img/footer/down.svg" alt="" class="w-4 h-4" />
+        </div>
+      </div>
+      <div class="flex mt-7 items-center justify-between">
+        <p class="font-bold text-xl">Meet Us</p>
+        <div
+          class="w-[35px] h-[35px] border-[3px] border-black rounded-full flex items-center justify-center"
+        >
+          <img src="./img/footer/down.svg" alt="" class="w-4 h-4" />
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <script>
+      const prevButton = document.querySelector(".prev");
+      const nextButton = document.querySelector(".next");
+      const carousel = document.querySelector(".carousel");
+
+      nextButton.addEventListener("click", () => {
+        carousel.scrollBy({ left: 350, behavior: "smooth" });
+      });
+
+      prevButton.addEventListener("click", () => {
+        carousel.scrollBy({ left: -350, behavior: "smooth" });
+      });
+    </script>
+  </body>
+</html>
